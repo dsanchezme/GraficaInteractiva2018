@@ -1,0 +1,2196 @@
+@charset "UTF-8";
+
+
+/*----- Se importan de las fuentes que se van a utilizar ----*/
+
+
+@font-face {
+    font-family: 'Comic';
+    src:url('fonts/ComicSansMS3.ttf') format('truetype');
+}
+
+@font-face{
+    font-family:'Terbium';
+    src:url('fonts/Terbium.ttf') format('truetype');
+}
+
+@font-face{
+    font-family:'AlexBrush-Regular';
+    src:url('fonts/AlexBrush-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family:'Nunito';
+    src:url('fonts/Nunito-Bold.ttf') format('truetype');
+}
+
+
+/*---- Estilos para los fondos (imágenes de fondo) de cada página ----*/
+
+
+.fondo {
+    
+    background-image:  url(imagenes/Fondo.jpg); 
+    background-color: #4d1a00;
+	background-repeat:repeat;
+    background-size: 1370px;
+    position: fixed;
+    margin: 0px;
+}
+
+.fondo1{
+    
+    background-image:  url(imagenes/Fondo1.png); 
+    background-color: #4d1a00;
+	background-repeat:repeat-y;
+    background-size: 100% ;
+    margin: 0px;   
+}
+
+.fondo2{
+    
+    background-image:  url(imagenes/Fondo2.png); 
+    background-color: #4d1a00;
+	background-repeat:repeat-y;
+    background-size: 100% ;
+    margin: 0px;   
+}
+
+.fondo3{
+    
+    background-image:  url(imagenes/Fondo3.png); 
+    background-color: #4d1a00;
+	background-repeat:repeat-y;
+    background-size: 100% ;
+    margin: 0px;  
+}
+
+.fondo4{
+    
+    background-image: url(Imagenes/Fondo_nuevo.png);
+     background-color: #4d1a00;
+	background-repeat:repeat-y;
+    background-size: 100%;
+    margin: 0px;
+}
+
+.fondo5{
+    background-image: url(Imagenes/Fondo5.png);
+     background-color: #4d1a00;
+	background-repeat:repeat-y;
+    background-size: 100%;
+    margin: 0px;
+}
+
+.fondo6{
+    background-image: url(Imagenes/Fondo6_1.png);
+     background-color: #4d1a00;
+	background-repeat:repeat-y;
+    background-size: 100%;
+    margin: 0px;
+}
+
+
+/*---- Estilos para los difentes enlaces (por ejemplo: El titulo), dejándolos de color blanco y sin subrayar ----*/
+
+
+a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+}
+
+
+/*---- Estilos para titulos, subtitulos, subsubtitulos y subsubsubtitulos ----*/
+
+
+.titulo {
+    
+	font-family: 'Terbium';
+    font-size: 70px;
+	font-style: normal;
+	text-shadow: 2px 2px #000000;
+   position: absolute;
+    top:10px;
+    text-align: center;
+    width: 1350px;
+}
+
+.titulo:hover{
+    
+    font-family: 'Terbium';
+    text-shadow: 2px 2px red;
+    font-size: 72px;
+}
+
+.subtitulos{
+    
+    font-family: 'Terbium';
+    position: absolute;
+    top:270px;
+    left: 200px;
+    font-size: 65px;
+    color: #4d1a00;
+}
+
+.Sub_subtitulos{
+    
+    font-family: 'Comic';
+    color: #600f00;
+    position:relative;
+    left:200px;
+    font-size: 44px;
+}
+
+.Subsubtitulos{
+    
+    font-family: 'Comic';
+    color: #662200;
+    position:relative;
+    left:200px;
+    font-size: 36px;
+}
+
+.Subsubsubtitulos{
+    
+    font-family: 'Comic';
+    color: #993300;
+    position:relative;
+    left:200px;
+    font-size: 24px;
+}
+
+
+/*--- Menú de navegación de la página principal (Index.html) -- Estilos de los botones (Hexágonos), cada uno con su cambio al pasar el cursor sobre él---*/
+
+
+.menu{
+    
+    position: absolute;
+    top:50px;   
+}
+
+.Boton_procesos{
+
+    height:140px;
+    width:160px;
+    position:absolute;
+    background-repeat: no-repeat;
+    top:301px;
+    left:308px;  
+    background-image: url(Imagenes/Boton_procesos.png);     
+}
+
+.Boton_procesos:hover{
+    
+    background-image: url(Imagenes/Boton2_procesos.png);
+    cursor:pointer;
+}
+
+.Boton_maqyherram{
+
+    height:140px;
+    width:160px;
+    position:absolute;
+    background-repeat: no-repeat;
+    top:235px;
+    left:430px;  
+    background-image: url(Imagenes/Boton_maqyherram.png);
+}
+        
+.Boton_maqyherram:hover{
+    
+    background-image: url(Imagenes/Boton2_maqyherram.png);
+    cursor:pointer;
+}
+
+.Boton_normas{
+    
+    height:140px;
+    width:160px;
+    position:absolute;
+    background-repeat: no-repeat;
+    top:366px;
+    left:430px;  
+    background-image: url(Imagenes/Boton_normas.png);
+}
+
+.Boton_normas:hover{
+    
+    background-image: url(Imagenes/Boton2_normas.png);
+    cursor:pointer;
+}
+
+.Boton_tiposmadera{
+    
+    height:140px;
+    width:160px;
+    position:absolute;
+    background-repeat: no-repeat;
+    top:168px;
+    left:552px;  
+    background-image: url(Imagenes/Boton_tiposmadera.png);
+}
+
+.Boton_tiposmadera:hover{
+    
+    background-image: url(Imagenes/Boton2_tiposmadera.png);
+    cursor:pointer;
+}
+
+.Boton_muebles{
+    
+    height:140px;
+    width:160px;
+    position:absolute;
+    background-repeat: no-repeat;
+    top:301px;
+    left:552px;  
+    background-image: url(Imagenes/Boton_muebles.png); 
+}
+
+.Boton_muebles:hover{
+ 
+    background-image: url(Imagenes/Boton2_muebles.png);
+    cursor:pointer;
+}
+
+.Boton_creditos{
+    
+    height:140px;
+    width:160px;
+    position:absolute;
+    background-repeat: no-repeat;
+    top:366px;
+    left:674px;  
+    background-image: url(Imagenes/Boton_creditos.png);   
+}
+
+.Boton_creditos:hover{
+    
+    background-image: url(Imagenes/Boton2_creditos.png);
+    cursor:pointer;
+}
+
+
+/*---- Estilos para los botones del menú desplegable que aparece en cada página, cada uno con su cambio al pasar el cursor sobre él----*/
+
+
+.Enlace_inicio{
+    
+    height: 15px;
+    width:60px;
+    position: absolute;
+    top:115px;
+    left:200px;
+    background: url(Imagenes/Enlace_inicio.png);
+    background-repeat: no-repeat;
+}
+
+.Enlace_inicio:hover{
+    
+    height: 20px;
+    background-size: 89px;
+}
+
+.Enlace_procesos{
+    
+    height: 10px;
+    width:80px;
+    position: absolute;
+    top:115px;
+    left:295px;
+    background: url(Imagenes/Enlace_procesos.png);
+    background-repeat: no-repeat;
+}
+
+.Enlace_procesos:hover{
+    
+    height: 20px;
+    background-size: 109px;
+}
+
+.Enlace_maqyherram{
+    
+    height: 10px;
+    width:40px;
+    position: absolute;
+    top:115px;
+    left:411px;
+    background: url(Imagenes/Enlace_maqyherram.png);
+    background-repeat: no-repeat;
+}
+
+.Enlace_maqyherram:hover{
+    
+    height: 20px;
+    background-size: 71px;
+}
+
+.Enlace_normas{
+    
+    height: 10px;
+    width:75px;
+    position: absolute;
+    top:115px;
+    left:489px;
+    background: url(Imagenes/Enlace_normas.png);
+    background-repeat: no-repeat;
+}
+
+.Enlace_normas:hover{
+    
+    height: 20px;
+    background-size:106px;
+}
+
+.Enlace_tiposmadera{
+    
+    height: 15px;
+    width:70px;
+    position: absolute;
+    top:115px;
+    left:600px;
+    background: url(Imagenes/Enlace_tiposmadera.png);
+    background-repeat: no-repeat;
+}
+
+.Enlace_tiposmadera:hover{
+    
+    height: 20px;
+    background-size:100px;
+}
+
+.Enlace_muebles{
+    
+    height: 15px;
+    width:70px;
+    position: absolute;
+    top:115px;
+    left:705px;
+    background: url(Imagenes/Enlace_muebles.png);
+    background-repeat: no-repeat;
+}
+
+.Enlace_muebles:hover{
+    
+    height: 20px;
+    background-size:100px;
+}
+
+.Enlace_creditos{
+    
+    height: 15px;
+    width:70px;
+    position: absolute;
+    top:115px;
+    left:810px;
+    background: url(Imagenes/Enlace_creditos.png);
+    background-repeat: no-repeat;
+}
+
+.Enlace_creditos:hover{
+    
+    height: 20px;
+    background-size:100px;
+}
+
+
+/*---- Estilos para los "sub_botones" que aparecen al pasar el cursor sobre los botones del menú desplegable, y los cambios de los "sub_botones" al pasar el cursor sobre ellos ----*/
+
+
+.Subenlace_secado{
+        
+    height: 30px;
+    width:100px;
+    position: fixed;
+    top:150px;
+    left:295px;
+    background: url(Imagenes/Subenlace_secado.png);
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+
+.Subenlace_secado:hover{
+    
+    opacity: 1;       
+}
+
+.Subenlace_mecanizado{
+        
+    height: 30px;
+    width:100px;
+    position: fixed;
+    top:175px;
+    left:295px;
+    background: url(Imagenes/Subenlace_mecanizado.png);
+    background-repeat: no-repeat;
+    opacity: 0.7; 
+}
+
+
+.Subenlace_mecanizado:hover{
+    
+    opacity: 1;   
+}
+
+.Subenlace_montaje{
+        
+    height: 30px;
+    width:100px;
+    position: fixed;
+    top:200px;
+    left:295px;
+    background: url(Imagenes/Subenlace_montaje.png);
+    background-repeat: no-repeat;
+    opacity: 0.7; 
+}
+
+
+.Subenlace_montaje:hover{
+    
+    opacity: 1;   
+}
+
+
+.Subenlace_preacabado{
+        
+    height: 30px;
+    width:100px;
+    position: fixed;
+    top:225px;
+    left:295px;
+    background: url(Imagenes/Subenlace_preacadado.png);
+    background-repeat: no-repeat;
+    opacity: 0.7; 
+}
+
+
+.Subenlace_preacabado:hover{
+    
+    opacity: 1;   
+}
+
+.Subenlace_acabadosuper{
+        
+    height: 30px;
+    width:100px;
+    position: fixed;
+    top:250px;
+    left:295px;
+    background: url(Imagenes/Subenlace_acabadosuper.png);
+    background-repeat: no-repeat;
+    opacity: 0.7; 
+}
+
+
+.Subenlace_acabadosuper:hover{
+    
+    opacity: 1;   
+}
+
+
+.Subenlace_herram_manuales{
+        
+    height: 30px;
+    width:120px;
+    position: fixed;
+    top:150px;
+    left:411px;
+    background: url(Imagenes/Subenlace_herram_manuales.png);
+    background-repeat: no-repeat;
+    opacity: 0.7; 
+}
+
+
+.Subenlace_herram_manuales:hover{
+    
+    opacity: 1;   
+}
+
+.Subenlace_maq_herram{
+        
+    height: 30px;
+    width:120px;
+    position: fixed;
+    top:175px;
+    left:411px;
+    background: url(Imagenes/Subenlace_maq_herram.png);
+    background-repeat: no-repeat;
+    opacity: 0.7; 
+}
+
+
+.Subenlace_maq_herram:hover{
+    
+    opacity: 1;    
+}
+
+.Subenlace_maquinas{
+        
+    height: 30px;
+    width:120px;
+    position: fixed;
+    top:200px;
+    left:411px;
+    background: url(Imagenes/Subenlace_maquinas.png);
+    background-repeat: no-repeat;
+    opacity: 0.7; 
+}
+
+
+.Subenlace_maquinas:hover{
+    
+    opacity: 1;   
+}
+
+
+.Subenlace_maderamaciza{
+        
+    height: 30px;
+    width:120px;
+    position: fixed;
+    top:175px;
+    left:595px;
+    background: url(Imagenes/Subenlace_maderamaciza.png);
+    background-repeat: no-repeat;
+    opacity: 0.7; 
+}
+
+
+.Subenlace_maderamaciza:hover{
+    
+    opacity: 1;      
+}
+
+
+.Subenlace_maderasblandas{
+        
+    height: 30px;
+    width:120px;
+    position: fixed;
+    top:175px;
+    left:720px;
+    background: url(Imagenes/Subenlace_maderasblandas.png);
+    background-repeat: no-repeat;
+    opacity: 0.7; 
+}
+
+
+.Subenlace_maderasblandas:hover{
+    
+    opacity: 1;   
+}
+
+.Subenlace_maderasduras{
+        
+    height: 25px;
+    width:106px;
+    position:fixed;
+    top:200px;
+    left:720px;
+    background: url(Imagenes/Subenlace_maderasduras.png);
+    background-repeat: no-repeat;
+    opacity: 0.7; 
+}
+
+.Subenlace_maderasduras:hover{
+    
+    opacity: 1;   
+}
+
+.Subenlace_maderaprefabricada{
+        
+    height: 30px;
+    width:120px;
+    position: fixed;
+    top:150px;
+    left:595px;
+    background: url(Imagenes/Subenlace_maderaprefabricada.png);
+    background-repeat: no-repeat;
+    opacity: 0.7; 
+}
+
+.Subenlace_maderaprefabricada:hover{
+    
+    opacity: 1;   
+}
+
+
+/*---- Estilos para el comportamiento del menú desplegable que aparece en cada página ----*/
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#header{
+    
+    margin:auto;
+    width: 500px;
+}
+
+        
+ul, ol{
+    
+    list-style: none;
+}
+            
+.nav li a{
+        
+    color: #fff;
+    text-decoration:none;
+    padding: 10px 15px;
+    display: block;
+}
+    
+
+.nav>li{
+    
+    float: left;
+}
+        
+.nav li ul{
+    
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+        
+.nav li:hover > ul{
+    
+    display: block;
+}
+        
+.nav li ul li{
+    
+    position:relative;
+}
+        
+.nav li ul li ul{
+    
+    right: -140px;
+    top: 0px;
+}
+
+/*---- Estilos para las diferentes imágenes que aparecen en cada página ----*/
+
+
+.imagen{
+    
+    height: 300px;
+    position:fixed;
+    left:900px;
+    top:300px;
+}
+
+.imagen2{
+    
+    height: 200px;
+    position: relative;
+    margin: 20px;
+    margin-top: 27px;
+    margin-left: 200px;
+}
+
+.maderas1{
+    
+    height: 100px;
+    position: relative;
+    margin: 20px;
+    margin-top: 27px;
+    margin-left: 200px;
+    border: 1px solid #4d1a00;
+}
+
+.maderas2{
+    
+    height: 100px;
+    position: relative;
+    margin: 20px;
+    margin-top: 27px;
+    margin-right: 150px;
+    border: 1px solid #4d1a00;
+}
+
+.herramienta1{
+    
+    height: 120px;
+    position: relative;
+    margin: 10px 0px 0px 20px;
+    border: 1px solid #4d1a00;
+}
+
+.herramienta2{
+    
+    height: 120px;
+    position: relative;
+    margin: 20px 20px 0px 0px;
+    border: 1px solid #4d1a00;
+}
+
+
+/*---- Estilos para los gifs ----*/
+
+
+.gif_inicio{
+    
+    position: fixed;
+    top:200px;
+    left:130px;
+    height: 200px;
+}
+
+.gifs{
+    
+    height: 200px;
+    position:relative;
+    margin:20px;
+    margin-right: 150px;
+}
+
+
+/*---- Estilos para el escudo de la universidad que aparece al final de cada página ----*/
+
+
+.escudo_unal{
+    
+   height: 55px;
+   position: absolute;
+   top:643px;
+   left: 100px;
+    margin-bottom: 20px;
+    
+}
+
+.escudo_unal:hover{
+    
+    height: 56px;
+}
+
+.escudo1_unal{
+    
+    height: 55px;
+    position: relative;
+   top:3553px;
+   left: 100px;  
+    margin-bottom: 10px;
+}
+
+.escudo1_unal:hover{
+    
+    height: 56px;
+}
+
+
+.escudo2_unal{
+    
+    height: 55px;
+    position: relative;
+   top:9425px;
+   left: 100px;  
+    margin-bottom: 10px;
+}
+
+.escudo2_unal:hover{
+    
+    height: 56px;
+}
+
+.escudo3_unal{
+    
+    height: 55px;
+    position: absolute;
+    top:3555px;
+    left: 100px;  
+    margin-bottom: 10px;
+}
+
+.escudo3_unal:hover{
+    
+    height: 56px;
+}
+
+.escudo4_unal{
+    
+    height: 55px;
+    position: relative;
+   top:110px;
+   left: 100px;  
+    margin-bottom: 10px;
+}
+
+.escudo4_unal:hover{
+    
+    height: 56px;
+}
+
+.escudo5_unal{
+    
+    height: 55px;
+    position: absolute;
+   top:11310px;
+   left: 100px;  
+    margin-bottom: 10px;
+}
+
+.escudo5_unal:hover{
+    
+    height: 56px;
+}
+
+.escudo6_unal{
+    
+    height: 55px;
+    position: absolute;
+   top:2425px;
+   left: 100px;  
+    margin-bottom: 10px;
+}
+
+.escudo6_unal:hover{
+    
+    height: 56px;
+}
+
+
+/*---- Estilos para el nombre del autor que aparece al final de cada página ----*/
+
+
+.nombre{
+    
+    position: absolute;
+    font-family: 'Comic';
+    text-decoration: none;
+    font-size: 18px;
+	font-style: normal;
+    color:white;
+    top:655px;
+    left:270px;
+    width: 300px; 
+}
+
+.nombre1{
+    
+    position: absolute;
+    font-family: 'Comic';
+    text-decoration: none;
+    font-size: 18px;
+	font-style: normal;
+    color:white;
+    top:3567px;
+    left:270px;
+    margin-bottom: 25px;
+    
+}
+
+.nombre2{
+    
+    position: absolute;
+    font-family: 'Comic';
+    text-decoration: none;
+    font-size: 18px;
+	font-style: normal;
+    color:white;
+    top:9440px;
+    left:270px;
+    margin-bottom: 30px;
+}
+
+.nombre3{
+    
+    position: absolute;
+    font-family: 'Comic';
+    text-decoration: none;
+    font-size: 18px;
+	font-style: normal;
+    color:white;
+    top:3570px;
+    left:270px;
+    margin-bottom: 30px;
+}
+
+.nombre4{
+    
+    position: absolute;
+    font-family: 'Comic';
+    text-decoration: none;
+    font-size: 18px;
+	font-style: normal;
+    color:white;
+    top:5028px;
+    left:270px;
+    margin-bottom: 10px;
+}
+
+.nombre5{
+    
+    position: absolute;
+    font-family: 'Comic';
+    text-decoration: none;
+    font-size: 18px;
+	font-style: normal;
+    color:white;
+    top:11328px;
+    left:270px;
+    margin-bottom: 10px;
+}
+
+.nombre6{
+    
+    position: absolute;
+    font-family: 'Comic';
+    text-decoration: none;
+    font-size: 18px;
+	font-style: normal;
+    color:white;
+    top:2443px;
+    left:270px;
+    margin-bottom: 10px;
+}
+
+
+/*---- Estilos para el botón "Más información" que aparece al final de cada página ----*/
+
+
+.link0{
+    font-family: 'Terbium';
+    font-size: 35px;
+    color:white;
+    position: absolute;
+    top:650px;
+    left: 1070px;
+    width: 200px;
+}
+
+.link0:hover{
+    text-decoration-line: underline;
+    height: 40px;
+    font-size: 36px;
+}
+
+.link1{
+    font-family: 'Terbium';
+    font-size: 35px;
+    color:white;
+    position: absolute;
+    top:3560px;
+    left: 1070px;
+    width: 200px;
+}
+
+.link1:hover{
+    text-decoration-line: underline;
+    height: 40px;
+    font-size: 36px;
+}
+
+.link2{
+    font-family: 'Terbium';
+    font-size: 35px;
+    color:white;
+    position: absolute;
+    top:9430px;
+    left: 1070px;
+    width: 200px;
+}
+
+.link2:hover{
+    text-decoration-line: underline;
+    height: 40px;
+    font-size: 36px;
+}
+
+.link4{
+    font-family: 'Terbium';
+    font-size: 35px;
+    color:white;
+    position: absolute;
+    top:5020px;
+    left: 1070px;
+    width: 200px;
+}
+
+.link4:hover{
+    text-decoration-line: underline;
+    height: 40px;
+    font-size: 36px;
+}
+
+.link5{
+    font-family: 'Terbium';
+    font-size: 35px;
+    color:white;
+    position: absolute;
+    top:11320px;
+    left: 1070px;
+    width: 200px;
+}
+
+.link5:hover{
+    text-decoration-line: underline;
+    height: 40px;
+    font-size: 36px;
+}
+
+
+/*---- Estilos para las direcciones (links) que aparecen en algunas páginas para profundizar más acerca del tema ----*/
+
+
+.links{
+    font-family: 'Terbium';
+    font-size: 35px;
+    margin: 100px 350px;
+    text-align: center;
+    color: black;
+}
+
+.links:hover{
+    background-color: #f0f0f5;
+    height: 50px;
+    font-size: 40px;
+}
+
+
+/*---- Estilos para la pregunta inicial de interacción con el usuario "¿Por dónde desea empezar?" ----*/
+
+
+.pregunta{
+    
+    font-size: 42px;
+    position: fixed;
+    top:220px;
+    left:740px;
+    color: brown;
+    width: 530px;
+}
+
+
+/*---- Botón "Ir arriba" que aparece en distintas partes de casa página, dirige al usuario al titulo de la página ----*/
+
+
+.irarriba1{
+    
+    position: absolute;
+    background-image: url(Imagenes/Boton_irarriba.png);
+    margin-left:1100px; 
+    width: 120px;
+    height: 70px;
+    background-repeat: no-repeat;
+    
+}
+
+.irarriba1:hover{
+    
+    background-image: url(Imagenes/Boton2_irarriba.png);
+}
+
+
+/*---- Estilos para el mapa del sitio, tamaño y posición ----*/
+
+
+.mapa_sitio{
+    position: absolute;
+    width: 980px;
+    margin-top: 10px;
+    margin-left: 180px;
+    margin-bottom: 500px;
+}
+
+
+/*---- Estilos para la imagen (logo) que aparece en la página de los créditos (Pag-seis.html) ----*/
+
+
+.logo{
+    
+    position: absolute;
+    left: 880px;
+    top:200px;
+    height: 270px;
+}
+
+
+/*---- Estilos para la imagen (logo) que aparece en la esquina superior izquierda de cada página ----*/
+
+
+.logo_pagina{
+    
+    height: 90px;
+    position: absolute;
+    top:8px;
+    left:8px; 
+}
+
+
+/*---- Estilos para todo el texto de las páginas ----*/
+
+
+.Texto{
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right:200px;
+    margin-top: 20px; 
+}
+
+
+/*---- Estilos para los videos que aparecen en algunas páginas ----*/
+
+
+.videos{
+    
+    height: 300px;
+    position:relative;
+    margin:20px;
+    margin-right: 150px;  
+}
+
+.video3{
+    
+    height: 400px;
+    position: absolute;
+    left: 300px;
+    top:2690px;
+}
+
+
+/*---- Estilos para las imagenes del ejemplo de proyecto de la página "muebles y proyectos" (Pag-cinco.html) ----*/
+
+
+.imagenproyecto{
+    
+    width: 980px;
+    position: relative;
+    margin:0px 200px;
+}
+
+
+/*---- Estilos para la frase que aparece en la página principal (Index.html) ----*/
+
+
+.frase{
+    
+    font-family: 'AlexBrush-Regular';
+    font-size: 30px;
+    position: fixed;
+    top:570px;
+    left: 180px;
+    color: #b36b00;
+    width: 700px;
+    font-style: normal;  
+}
+
+
+/*---- Cambios en los estilos cuando el ancho de la pantalla es menor o igual a 780 pixeles ----*/
+/*--------------- - Cambian los tamaño de la imagen de fondo (se hace más alta)
+                  - El titulo de las páginas se reacomoda
+                  - El logo de la página cambia de posicion
+                  - Los botones de navegación de la página principal cambia de posición
+                  - Los botones del menu desplegable también se reorganizan
+                  - El tamaño de la fuente (texto) disminuye
+------------------------ - En general todos los objetos cambian de lugar------------------------*/
+
+
+@media only screen and (max-width:780px){
+    
+    .fondo {
+    
+        background-image:  url(imagenes/Fondo4.png); 
+        background-color: #4d1a00;
+	   background-repeat:no-repeat;
+        background-size: 100%;
+        position: absolute;
+        margin: 0px;
+    }
+    
+    .fondo1{
+    
+        background-image: url(Imagenes/Fondo5.png);
+        position: absolute;
+        margin: 0px;
+        background-size: 100%;
+        background-repeat: repeat;
+    }
+    
+   
+    .titulo {
+	   font-family: 'Terbium';
+        font-size: 70px;
+	   font-style: normal;
+	   text-shadow: 2px 2px #000000;
+        position: absolute;
+        top:50px;
+        text-align: center;
+        width: 665px;
+    }
+    
+    .logo_pagina{
+    
+        height: 70px;
+        position: absolute;
+        top:125px;
+        left:90px;   
+    }
+    
+    .Boton_procesos{
+
+        width:160px;
+        position:absolute;
+        background-repeat: no-repeat;
+        top:400px;
+        left:120px;  
+        background-image: url(Imagenes/Boton_procesos.png); 
+    }
+    
+    .Boton_maqyherram{
+
+        height:140px;
+        width:160px;
+        position:absolute;
+        background-repeat: no-repeat;
+        top:335px;
+        left:242px;  
+        background-image: url(Imagenes/Boton_maqyherram.png);    
+    }
+        
+    .Boton_normas{
+    
+        height:140px;
+        width:160px;
+        position:absolute;
+        background-repeat: no-repeat;
+        top:532px;
+        left:120px;  
+        background-image: url(Imagenes/Boton_normas.png);  
+    }
+
+    .Boton_tiposmadera{
+    
+        height:140px;
+        width:160px;
+        position:absolute;
+        background-repeat: no-repeat;
+        top:270px;
+        left:364px;  
+        background-image: url(Imagenes/Boton_tiposmadera.png);    
+    }
+
+    .Boton_muebles{
+    
+        height:140px;
+        width:160px;
+        position:absolute;
+        background-repeat: no-repeat;
+        top:467px;
+        left:242px;  
+        background-image: url(Imagenes/Boton_muebles.png); 
+    }
+
+    .Boton_creditos{
+    
+        height:140px;
+        width:160px;
+        position:absolute;
+        background-repeat: no-repeat;
+        top:402px;
+        left:364px;  
+        background-image: url(Imagenes/Boton_creditos.png);     
+    }
+    
+    .Enlace_inicio{
+    
+        height: 15px;
+        width:60px;
+        position: absolute;
+        top:220px;
+        left:85px;
+        background: url(Imagenes/Enlace_inicio.png);
+        background-repeat: no-repeat;
+    }
+
+    .Enlace_procesos{
+    
+        height: 10px;
+        width:80px;
+        position: absolute;
+        top:220px;
+        left:180px;
+        background: url(Imagenes/Enlace_procesos.png);
+        background-repeat: no-repeat;
+    }
+
+    .Enlace_maqyherram{
+    
+        height: 10px;
+        width:40px;
+        position: absolute;
+        top:220px;
+        left:295px;
+        background: url(Imagenes/Enlace_maqyherram.png);
+        background-repeat: no-repeat;
+    }
+
+    .Enlace_normas{
+    
+        height: 10px;
+        width:75px;
+        position: absolute;
+        top:220px;
+        left:370px;
+        background: url(Imagenes/Enlace_normas.png);
+        background-repeat: no-repeat;
+    }
+
+    .Enlace_tiposmadera{
+    
+        height: 15px;
+        width:70px;
+        position: absolute;
+        top:220px;
+        left:480px;
+        background: url(Imagenes/Enlace_tiposmadera.png);
+        background-repeat: no-repeat;
+    }
+
+    .Enlace_muebles{
+    
+        height: 15px;
+        width:70px;
+        position: absolute;
+        top:260px;
+        left:75px;
+        background: url(Imagenes/Enlace_muebles.png);
+        background-repeat: no-repeat;
+    }
+
+    .Enlace_creditos{
+    
+        height: 15px;
+        width:70px;
+        position: absolute;
+        top:300px;
+        left:75px;
+        background: url(Imagenes/Enlace_creditos.png);
+        background-repeat: no-repeat;
+    }
+    
+    .gif_inicio{
+    
+        position: absolute;
+        top:600px;
+        left:370px;
+        height: 150px;
+    }
+    
+    .frase{
+        
+        position: absolute;
+        width: 490px;
+        top:795px;
+        left: 70px;
+        font-size: 28px;
+    }
+    
+    .escudo_unal{
+    
+        height: 60px;
+        position: absolute;
+        top:840px;
+        left: 100px;
+        margin-bottom: 100px;
+    }
+    
+    .escudo_unal:hover{
+    
+        height: 64px;
+    }
+    
+    .nombre{
+    
+        position: absolute;
+        font-size: 18px;
+	   font-style: normal;
+        top:860px;
+        left:270px;
+        width: 300px;
+    }
+    
+    .pregunta{
+    
+        font-size: 30px;
+        position: absolute;
+        top:755px;
+        left: 130px;
+    }
+    
+    .Subenlace_secado{
+        
+        height: 30px;
+        width:100px;
+        position: fixed;
+        top:255px;
+        left:180px;
+    }
+
+    .Subenlace_mecanizado{
+        
+        height: 30px;
+        width:100px;
+        position: fixed;
+        top:280px;
+        left:180px;
+    }
+
+    .Subenlace_montaje{
+        
+        height: 30px;
+        width:100px;
+        position: fixed;
+        top:305px;
+        left:180px;
+    }
+
+    .Subenlace_preacabado{
+        
+        height: 30px;
+        width:100px;
+        position: fixed;
+        top:330px;
+        left:180px;
+    }
+
+    .Subenlace_acabadosuper{
+        
+        height: 30px;
+        width:100px;
+        position: fixed;
+        top:355px;
+        left:180px;
+    }
+
+    .Subenlace_herram_manuales{
+        
+        height: 30px;
+        width:120px;
+        position: fixed;
+        top:255px;
+        left:295px;
+    }
+
+    .Subenlace_maq_herram{
+        
+        height: 30px;
+        width:120px;
+        position: fixed;
+        top:280px;
+        left:295px;
+    }
+
+    .Subenlace_maquinas{
+        
+        height: 30px;
+        width:120px;
+        position: fixed;
+        top:305px;
+        left:295px;
+    }
+
+    .Subenlace_maderamaciza{
+        
+        height: 30px;
+        width:120px;
+        position: fixed;
+        top:280px;
+        left:480px;
+    }
+
+    .Subenlace_maderasblandas{
+        
+        height: 30px;
+        width:120px;
+        position: fixed;
+        top:308px;
+        left:495px;
+    }
+
+    .Subenlace_maderasduras{
+        
+        height: 25px;
+        width:106px;
+        position:fixed;
+        top:333px;
+        left:505px;
+    }
+
+    .Subenlace_maderaprefabricada{
+        
+        height: 30px;
+        width:120px;
+        position: fixed;
+        top:255px;
+        left:480px;
+    }
+    
+    .subtitulos{
+    
+        position: absolute;
+        top:330px;
+        left: 110px;
+        font-size: 60px;
+        margin: 0px;
+        width:470px;
+    }
+
+    .Sub_subtitulos{
+    
+        position:relative;
+        left:110px;
+        margin-top: 40px;
+        font-size: 44px;
+        width: 470px;
+    }
+
+    .Subsubtitulos{
+    
+        position:relative;
+        left:110px;
+        font-size: 36px;
+        width: 470px;
+    }
+
+    .Subsubsubtitulos{
+    
+        position:relative;
+        left:110px;
+        font-size: 24px;
+        width: 470px;
+    }
+    
+    .Texto{
+        
+        text-align: justify;
+        margin: 50px 110px;
+    }
+    
+    .videos{
+    
+        height: 180px;
+        position:relative;
+        margin:20px 180px;
+    }
+
+    .video3{
+    
+        position:absolute;
+        height: 200px;
+        top:5150px;
+        margin: 20px -140px;
+    }
+    
+    .irarriba1{
+    
+        position: absolute;
+        margin-left:480px; 
+        width: 120px;
+        height: 70px;
+    }
+    
+    .imagenproyecto{
+    
+        width: 470px;
+        position: relative;
+        margin:0px 100px;
+    }
+    
+    .mapa_sitio{
+        
+        position: absolute;
+        width: 500px;
+        margin-top: 20px;
+        margin-left: 90px;
+        margin-bottom: -1000px;
+    }
+    
+
+    /*---- Se modifican los estilos para el botón "Más información" que aparece al final de cada página ----*/
+
+    
+    .links{
+    
+        margin: 100px 100px;
+        text-align: center;
+    }
+    
+    .link0{
+    
+        position: absolute;
+        top:965px;
+        left: 470px;
+        width: 200px;
+    }
+
+    .link1{
+    
+        position: absolute;
+        top:5560px;
+        left: 470px;
+        width: 200px;
+    }
+    
+    .link2{
+    
+        position: absolute;
+        top:18070px;
+        left: 470px;
+        width: 207px;
+    }
+
+    .link4{
+    
+        position: absolute;
+        top:9950px;
+        left: 470px;
+        width: 200px;
+    }
+
+    .link5{
+    
+        position: absolute;
+        top:6920px;
+        left: 470px;
+        width: 200px;
+    }
+}
+
+
+/*---- Cambios en los estilos cuando el ancho de la pantalla es menor o igual a 480 pixeles ----*/
+/*--------------- - Cambian los tamaño de la imagen de fondo (se hace más alta)
+                  - El titulo de las páginas se reacomoda
+                  - El logo de la página cambia de posicion
+                  - Los botones de navegación de la página principal cambia de posición
+                  - Los botones del menu desplegable también se reorganizan
+                  - El tamaño de la fuente (texto) disminuye
+------------------------ - En general todos los objetos cambian de lugar------------------------*/
+
+
+@media only screen and (max-width:480px){
+    
+    .fondo {
+    
+        background-image:  url(imagenes/Fondo2.png); 
+        background-color: #4d1a00;
+	   background-repeat:no-repeat;
+        background-size: 100%;
+        position: absolute;
+        margin: 0px;
+    }
+    
+    .fondo1{
+    
+        background-image: url(Imagenes/Fondo2.png);
+        position: absolute;
+        margin: 0px;
+        background-size: 100%;
+        background-repeat: repeat;
+    }
+    
+   
+    .titulo {
+        
+	   font-family: 'Terbium';
+        font-size: 50px;
+	   font-style: normal;
+	   text-shadow: 2px 2px #000000;
+        position: absolute;
+        top:50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        width: 470px;
+    }
+    
+    .titulo:hover{
+        
+        font-size: 52px;
+        
+    }
+    
+    .logo_pagina{
+    
+        height: 50px;
+        position: absolute;
+        top:110px;
+        left:60px;   
+    }
+    
+    .Boton_procesos{
+
+        width:160px;
+        position:absolute;
+        background-repeat: no-repeat;
+        top:350px;
+        left:85px;  
+        background-image: url(Imagenes/Boton_procesos.png); 
+    }
+    
+    .Boton_maqyherram{
+
+        height:140px;
+        width:160px;
+        position:absolute;
+        background-repeat: no-repeat;
+        top:285px;
+        left:207px;  
+        background-image: url(Imagenes/Boton_maqyherram.png);    
+    }
+        
+    .Boton_normas{
+    
+        height:140px;
+        width:160px;
+        position:absolute;
+        background-repeat: no-repeat;
+        top:481px;
+        left:85px;  
+        background-image: url(Imagenes/Boton_normas.png);  
+    }
+
+    .Boton_tiposmadera{
+    
+        height:140px;
+        width:160px;
+        position:absolute;
+        background-repeat: no-repeat;
+        top:416px;
+        left:207px;  
+        background-image: url(Imagenes/Boton_tiposmadera.png);    
+    }
+
+    .Boton_muebles{
+    
+        height:140px;
+        width:160px;
+        position:absolute;
+        background-repeat: no-repeat;
+        top:613px;
+        left:85px;  
+        background-image: url(Imagenes/Boton_muebles.png); 
+    }
+
+    .Boton_creditos{
+    
+        height:140px;
+        width:160px;
+        position:absolute;
+        background-repeat: no-repeat;
+        top:547px;
+        left:207px;  
+        background-image: url(Imagenes/Boton_creditos.png);     
+    }
+    
+    .Enlace_inicio{
+    
+        height: 15px;
+        width:60px;
+        position: absolute;
+        top:170px;
+        left:40px;
+        background: url(Imagenes/Enlace_inicio.png);
+        background-repeat: no-repeat;
+    }
+
+    .Enlace_procesos{
+    
+        height: 10px;
+        width:80px;
+        position: absolute;
+        top:170px;
+        left:132px;
+        background: url(Imagenes/Enlace_procesos.png);
+        background-repeat: no-repeat;
+    }
+
+    .Enlace_maqyherram{
+    
+        height: 10px;
+        width:40px;
+        position: absolute;
+        top:170px;
+        left:244px;
+        background: url(Imagenes/Enlace_maqyherram.png);
+        background-repeat: no-repeat;
+    }
+
+    .Enlace_normas{
+    
+        height: 10px;
+        width:75px;
+        position: absolute;
+        top:170px;
+        left:319px;
+        background: url(Imagenes/Enlace_normas.png);
+        background-repeat: no-repeat;
+    }
+
+    .Enlace_tiposmadera{
+    
+        height: 15px;
+        width:75px;
+        position: absolute;
+        top:210px;
+        left:35px;
+        background: url(Imagenes/Enlace_tiposmadera.png);
+        background-repeat: no-repeat;
+    }
+
+    .Enlace_muebles{
+    
+        height: 15px;
+        width:70px;
+        position: absolute;
+        top:250px;
+        left:35px;
+        background: url(Imagenes/Enlace_muebles.png);
+        background-repeat: no-repeat;
+    }
+
+    .Enlace_creditos{
+    
+        height: 15px;
+        width:70px;
+        position: absolute;
+        top:290px;
+        left:40px;
+        background: url(Imagenes/Enlace_creditos.png);
+        background-repeat: no-repeat;
+    }
+    
+    .gif_inicio{
+    
+        position: absolute;
+        top:750px;
+        left:255px;
+        height: 140px;
+    }
+    
+    .frase{
+        
+        position: absolute;
+        width: 370px;
+        top:890px;
+        left: 50px;
+        font-size: 28px;
+    }
+    
+    .escudo_unal{
+    
+        height: 60px;
+        position: absolute;
+        top:970px;
+        left: 70px;
+        margin-bottom: 100px;
+    }
+    
+    .escudo_unal:hover{
+    
+        height: 64px;
+    }
+    
+    .nombre{
+    
+        position: absolute;
+        font-size: 18px;
+	   font-style: normal;
+        top:980px;
+        left:260px;
+        width: 160px;
+    }
+    
+    .nombre1{
+    
+        position: absolute;
+        font-size: 18px;
+	   font-style: normal;
+        top:5400px;
+        left:260px;
+        width: 160px;
+    }
+    
+    .escudo1_unal{
+    
+        height: 60px;
+        position: absolute;
+        top:5400px;
+        left: 70px;
+        margin-bottom: 30px;
+    }
+    
+    .escudo1_unal:hover{
+    
+        height: 64px;
+    }
+    
+    .pregunta{
+    
+        font-size: 25px;
+        position: absolute;
+        top:805px;
+        left: 50px;
+        width: 200px;
+        text-align: center;
+    }
+    
+    .Subenlace_secado{
+        
+        height: 30px;
+        width:100px;
+        position: fixed;
+        top:205px;
+        left:140px;
+    }
+
+    .Subenlace_mecanizado{
+        
+        height: 30px;
+        width:100px;
+        position: fixed;
+        top:230px;
+        left:140px;
+    }
+
+    .Subenlace_montaje{
+        
+        height: 30px;
+        width:100px;
+        position: fixed;
+        top:255px;
+        left:140px;
+    }
+
+    .Subenlace_preacabado{
+        
+        height: 30px;
+        width:100px;
+        position: fixed;
+        top:280px;
+        left:140px;
+    }
+
+    .Subenlace_acabadosuper{
+        
+        height: 30px;
+        width:100px;
+        position: fixed;
+        top:305px;
+        left:140px;
+    }
+
+    .Subenlace_herram_manuales{
+        
+        height: 30px;
+        width:120px;
+        position: fixed;
+        top:205px;
+        left:245px;
+    }
+
+    .Subenlace_maq_herram{
+        
+        height: 30px;
+        width:120px;
+        position: fixed;
+        top:230px;
+        left:245px;
+    }
+
+    .Subenlace_maquinas{
+        
+        height: 30px;
+        width:120px;
+        position: fixed;
+        top:255px;
+        left:245px;
+    }
+
+    .Subenlace_maderamaciza{
+        
+        height: 30px;
+        width:120px;
+        position: fixed;
+        top:235px;
+        left:140px;
+    }
+
+    .Subenlace_maderasblandas{
+        
+        height: 30px;
+        width:120px;
+        position: fixed;
+        top:260px;
+        left:150px;
+    }
+
+    .Subenlace_maderasduras{
+        
+        height: 25px;
+        width:106px;
+        position:fixed;
+        top:285px;
+        left:150px;
+    }
+
+    .Subenlace_maderaprefabricada{
+        
+        height: 30px;
+        width:130px;
+        position: fixed;
+        top:210px;
+        left:140px;
+    }
+    
+    .subtitulos{
+    
+        position: absolute;
+        top:330px;
+        left: 5px;
+        font-size: 50px;
+        margin: 0px;
+        width:450px;
+        text-align: center;
+    }
+
+    .Sub_subtitulos{
+    
+        position:relative;
+        left:50px;
+        margin-top: 40px;
+        font-size: 42px;
+        width: 5070px;
+    }
+
+    .Subsubtitulos{
+    
+        position:relative;
+        left:50px;
+        font-size: 34px;
+        width: 470px;
+    }
+
+    .Subsubsubtitulos{
+    
+        position:relative;
+        left:50px;
+        font-size: 22px;
+        width: 470px;
+    }
+    
+    .Texto{
+        
+        text-align: justify;
+        margin: 130px 130px 20px 50px;
+        font-size: 18px;
+    }
+    
+    .videos{
+    
+        height: 160px;
+        position:relative;
+        margin:20px 200px 20px 60px;
+    }
+
+    .video3{
+    
+        position:absolute;
+        height: 200px;
+        top:5150px;
+        margin: 20px -140px;
+    }
+    
+    .irarriba1{
+    
+        position: absolute;
+        margin-left:300px; 
+        width: 120px;
+        height: 70px;
+    }
+    
+    .imagenproyecto{
+    
+        width: 270px;
+        position: relative;
+        margin:0px 100px;
+    }
+    
+    .imagen2{
+        
+        height: 100px;
+        resize: both;
+        margin: 30px 20px 0px 50px;
+    }
+    
+    .mapa_sitio{
+        
+        position: absolute;
+        width: 380px;
+        margin-top: 20px;
+        margin-left: 45px;
+        margin-bottom: -1000px;
+    
+    }
+
+    
+    /*---- Se modifican los estilos para el botón "Más información" que aparece al final de cada página ----*/
+
+    
+    .links{
+    
+        margin: 50px 50px;
+        text-align: center;
+    }
+    
+    .link0{
+    
+        position: absolute;
+        top:1050px;
+        left: 220px;
+        width: 200px;
+    }
+
+    .link1{
+    
+        position: absolute;
+        top:5300px;
+        left: 220px;
+        width: 200px;
+        margin-bottom: 50px;
+    }
+    
+    .link2{
+    
+        position: absolute;
+        top:18070px;
+        left: 470px;
+        width: 207px;
+    }
+
+    .link4{
+    
+        position: absolute;
+        top:9950px;
+        left: 470px;
+        width: 200px;
+    }
+
+    .link5{
+    
+        position: absolute;
+        top:6920px;
+        left: 470px;
+        width: 200px;
+    }
+}
