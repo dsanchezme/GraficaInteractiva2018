@@ -6,22 +6,22 @@
 
 @font-face {
     font-family: 'Comic';
-    src:url('fonts/ComicSansMS3.ttf') format('truetype');
+    src:url('Fonts/ComicSansMS3.ttf') format('truetype');
 }
 
 @font-face{
     font-family:'Terbium';
-    src:url('fonts/Terbium.ttf') format('truetype');
+    src:url('Fonts/Terbium.ttf') format('truetype');
 }
 
 @font-face{
     font-family:'AlexBrush-Regular';
-    src:url('fonts/AlexBrush-Regular.ttf') format('truetype');
+    src:url('Fonts/AlexBrush-Regular.ttf') format('truetype');
 }
 
 @font-face{
     font-family:'Nunito';
-    src:url('fonts/Nunito-Bold.ttf') format('truetype');
+    src:url('Fonts/Nunito-Bold.ttf') format('truetype');
 }
 
 
@@ -30,7 +30,7 @@
 
 .fondo {
     
-    background-image:  url(imagenes/Fondo.jpg); 
+    background-image:  url(Imagenes/Fondo.jpg); 
     background-color: #4d1a00;
 	background-repeat:repeat;
     background-size: 1370px;
@@ -40,7 +40,7 @@
 
 .fondo1{
     
-    background-image:  url(imagenes/Fondo1.png); 
+    background-image:  url(Imagenes/Fondo1.png); 
     background-color: #4d1a00;
 	background-repeat:repeat-y;
     background-size: 100% ;
@@ -49,7 +49,7 @@
 
 .fondo2{
     
-    background-image:  url(imagenes/Fondo2.png); 
+    background-image:  url(Imagenes/Fondo2.png); 
     background-color: #4d1a00;
 	background-repeat:repeat-y;
     background-size: 100% ;
@@ -58,7 +58,7 @@
 
 .fondo3{
     
-    background-image:  url(imagenes/Fondo3.png); 
+    background-image:  url(Imagenes/Fondo3.png); 
     background-color: #4d1a00;
 	background-repeat:repeat-y;
     background-size: 100% ;
